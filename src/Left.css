@@ -1,0 +1,24 @@
+.left{
+    display: flex;
+    width: 400px;
+    background-color: lightgrey;
+    
+}
+.list_items{
+    margin: 20px;
+    list-style: none;
+}
+.list_items li{
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+.list_items li:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+@media screen and (max-width:500px) {
+   .left{
+    display: none;
+   }
+}

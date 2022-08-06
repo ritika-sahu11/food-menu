@@ -1,0 +1,92 @@
+.items{
+    background-color: rgb(228, 206, 186);
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+.starIcon{
+    font-size: 13px !important;
+    color: goldenrod !important;
+}
+.first_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    border-radius: 20px;
+    padding: 3px 4px;
+}
+.rating_point{
+    font-size: 11px;
+    font-weight: 100;
+}
+.liked{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heartIcon{
+    color: grey;
+    font-size: 13px !important;
+
+}
+.image{
+    width: 100px;
+    height: 80px;
+    border-radius: 50px;
+    margin: 20px auto;
+}
+.row2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+.amount{
+    margin-left: 10px;
+    background-color: rgb(250, 249, 249);
+    font-size: 13px;
+    padding: 0px 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: rgb(116, 115, 115);
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add{
+    width: max-content;
+    background-color: orange;
+    padding: 0 3px;
+    border-radius: 2px;
+    border: 1px solid darkorange;
+    cursor: pointer;
+}
+select{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+select option{
+    cursor: pointer;
+}
+@media screen and (max-width:600px)
+{
+    .items{
+        width: 200px; ;
+    }
+}

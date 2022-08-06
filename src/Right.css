@@ -1,0 +1,19 @@
+.right{
+    display: flex;
+   width: 600px;
+    flex-direction: column;
+}
+.text{
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.right_title{
+    margin: 10px;
+}
+@media screen and (max-width:600px)
+{
+    .right{
+        width: 300px;
+    }
+}
